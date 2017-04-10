@@ -1,0 +1,1 @@
+Way to ping websites and get responses
