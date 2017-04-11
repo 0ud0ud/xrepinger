@@ -3,7 +3,7 @@
 */
 module.exports = [
     {
-        url: 'htsdftp://servedby.flashtalking.com/imp/8/62837;1850446;201;js;testingcom;Rule1Singlecreative/?ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ftiniframe=false&ft_referrer=http%3A%2F%2Fwww.flashtalking.net%2Fv3%2Ftags%2F1850446.html&cachebuster=558846.293884043',
+        url: 'http://servedby.flashtalking.com/imp/8/62837;185w0446;201;js;testingcom;Rule1Singlecreative/?ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ftiniframe=false&ft_referrer=http%3A%2F%2Fwww.flashtalking.net%2Fv3%2Ftags%2F1850446.html&cachebuster=558846.2938840',
         timeout: 0.1
     },
  

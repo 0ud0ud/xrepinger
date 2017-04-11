@@ -16,7 +16,7 @@ websites.forEach(function (website) {
  
 server = http.createServer(function (req, res) {
     var data = "Monitoring the following websites: \n \n" + websites.join("\n");
- 
+    
     res.end(data);
 }); 
  
