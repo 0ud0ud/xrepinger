@@ -1,4 +1,4 @@
 module.exports = {
-    email: 'alexandre.leguay@flashtalking.com',
-    password: 'Gufo5101'
+    email: process.ENV.email,
+    password: process.ENV.password
 };
