@@ -1,24 +1,27 @@
 var Ping = require('./lib/ping.js'),
     websites = require('./websites.js'),
-    http = require('http'),
     server,
-    port = process.env.PORT || 3008,
-    monitors = [];
- 
-websites.forEach(function (website) {
-    var monitor = new Ping ({
+    port = process.env.PORT || 3000,
+    monitors = [],
+    express = require('express'),
+    app = express();
+
+websites.forEach(function(website) {
+    var monitor = new Ping({
         website: website.url,
         timeout: website.timeout
     });
- 
+
     monitors.push(monitor);
 });
- 
-server = http.createServer(function (req, res) {
-    var data = "Monitoring the following websites: \n \n" + websites.join("\n");
-    
-    res.end(data);
-}); 
- 
-server.listen(port);
-console.log('Listening to port %s', port);
+
+app.set('view engine', 'pug')
+
+app.get('/', function(req, res) {
+    var urls  = (JSON.stringify(websites)).replace(/\[?\{\"url":"(.+?)\",(.*?)(?:,|\])/g,'$1\n\n\n');
+    res.render('index', { title: 'XREPinger!', url: urls })
+})
+
+app.listen(port, function() {
+    console.log('App listening on port 3000!')
+})

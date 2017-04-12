@@ -1,1 +1,1 @@
-Way to ping websites and get responses
+Monitoring URL by pinging them. Whenever one URL is responding with an error or not responding, an email containing the URL and the error is emitted to the admin.

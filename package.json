@@ -1,24 +1,30 @@
 {
-   "name":"Ping",
-   "version":"0.0.1",
-   "description":"Node uptime monitor",
-   "main":"app.js",
-   "repository":{
-      "type":"git",
-      "url":"https://alexandreleguay@bitbucket.org/alexandreleguay/xrepinger.git"
-   },
-   "keywords":[
-      "uptime",
-      "monitor"
-   ],
-   "engines": {
-      "node": "^4.x",
-      "": "^2.x"
-  },
-   "dependencies":{
-      "request":"~2.12.0",
-      "nodemailer":"2.x"
-   },
-   "author":"alexandre leguay",
-   "license":"MIT"
+    "name": "Ping",
+    "version": "0.0.1",
+    "description": "Node uptime monitor",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://alexandreleguay@bitbucket.org/alexandreleguay/xrepinger.git"
+    },
+    "keywords": [
+        "uptime",
+        "monitor"
+    ],
+    "engines": {
+        "node": "^4.x",
+        "npm": "^2.x"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "request": "~2.12.0",
+        "nodemailer": "2.x",
+        "express": "4.x.x",
+        "pug": "2.0.0-beta11"
+
+    },
+    "author": "alexandre leguay",
+    "license": "MIT"
 }
