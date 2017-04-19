@@ -1,0 +1,30 @@
+{
+    "Impressions": {
+        {
+            "url": "http://servedby.flashtalking.com/imp/8/62837;1850446;201;js;testingcom;Rule1Singlecreative/?cachebuster=558846.2938840",
+            "timeout": 60
+        },
+        {
+            "url": "http://servedby.flashtalking.com/imp/8/62837;1850451;201;js;testingcom;Rule2Rotation/?cachebuster=481201.61367801926",
+            "timeout": 60
+        },
+        {
+            "url": "http://servedby.flashtalking.com/imp/8/62837;1850960;201;js;testingcom;Rule3Sequence/?cachebuster=906525.5492295339",
+            "timeout": 60
+        },
+        {
+            "url": "http://servedby.flashtalking.com/imp/8/62837;1872003;201;js;testingcom;Rule5Timeofday/?cachebuster=535238.2868048393",
+            "timeout": 60
+        },
+        {
+            "url": "http://servedby.flashtalking.com/imp/8/62837;1872004;201;js;testingcom;Rule6Geotargeting/?cachebuster=86881.88177736444",
+            "timeout": 60
+        }
+    },
+    "click": {
+        {
+            "url": "https://servedby.flashtalking.com/click/1/62837;1850446;1368701;210;0/?ft_impID=3065EFA17D3CDC&g=30395833B24565&random=93440267&ft_width=300&ft_height=250&url=http://www.example.com/",
+            "timeout": 60
+        }
+    }
+}

@@ -1,0 +1,21 @@
+body {
+	overflow: hidden;
+	background-color: black;	
+}
+
+.container {
+	height: 95vh;
+	overflow: hidden;
+	background-color: silver;
+	
+}
+
+.urls {
+	overflow: auto;
+}
+
+.list-group-item { 
+	word-wrap: break-word;
+	background-color: teal;
+	color: white;
+}

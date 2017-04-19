@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<% include ./head %>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h1>Monitoring these urls</h1>
+			</div>
+			<div class="urls">
+				<ul class="list-group">
+					<% url.forEach(function(text) { %>
+					<li class="list-group-item"><%= text %></li>
+					<% }); %>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<% include ./footer %>
+	</footer>
+</html>
