@@ -23,7 +23,8 @@
         "nodemailer": "2.x",
         "express": "4.x.x",
         "basic-auth": "1.1.0",
-        "ejs": "2.5.x"
+        "ejs": "2.5.x",
+        "socket.io": "1.7.3"
     },
     "author": "alexandre leguay",
     "license": "MIT"

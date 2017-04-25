@@ -9,13 +9,17 @@
 				<h1>Monitoring these urls</h1>
 			</div>
 			<div class="urls">
-				<ul class="list-group">
+				<table class="table table-striped table-hover ">
 					<% url.forEach(function(text) { %>
-					<li class="list-group-item"><%= text %></li>
+					<tr>
+						<td><%= text %></td>
+						<td class="status col-md-2 success" >OK</td>
+					</tr>
 					<% }); %>
-				</ul>
+				</table>
 			</div>
 		</div>
+		<% include ./script %>
 	</body>
 	<footer>
 		<% include ./footer %>

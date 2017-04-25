@@ -1,21 +1,21 @@
 body {
 	overflow: hidden;
-	background-color: black;	
+	background-color: #FFF;	
 }
 
 .container {
-	height: 95vh;
-	overflow: hidden;
-	background-color: silver;
-	
+	height:  95vh;
+	max-height: 95vh;
+	background-color: #FFF;
 }
 
 .urls {
 	overflow: auto;
+	max-height: 80vh;
 }
 
-.list-group-item { 
-	word-wrap: break-word;
-	background-color: teal;
-	color: white;
+.status
+{
+    text-align: center; 
+    vertical-align: middle;
 }
