@@ -2,8 +2,8 @@
     List of websites to be monitored
 */
 module.exports = [{
-    url: 'http://servedby.flashtalking.com/imp/8/62837;1850446;201;gif;testingcom;Rule1Singlecreative/?cachebuster=558846.2938840',
-    timeout: 60
+    url: 'http://servedby.flashtalking.com/imp/8/62e837;1850446;201;gif;testingcom;Rule1Singlecreative/?cachebuster=558846.2938840',
+    timeout: 0.1
 }, {
     url: 'http://servedby.flashtalking.com/imp/8/62837;1850446;201;gifimpid;testingcom;Rule1Singlecreative/?cachebuster=558846.2938840',
     timeout: 60
